@@ -4,10 +4,13 @@
  * User: mbitson
  * Date: 9/29/2014
  * Time: 8:58 AM
- * This scrip allows for a complete deletion of
+ * This script allows for a complete deletion of
  * all posts with the type 'property'. It then
  * pulls all relavent MLS information from the
  * server and presents it.
+ * The A-B-C setup for the processes is taken from
+ * the best practices for RETS servers found here:
+ * https://www.flexmls.com/developers/rets/tutorials/how-to-efficiently-replicate-rets-data/
  */
 
 // Include configuration
